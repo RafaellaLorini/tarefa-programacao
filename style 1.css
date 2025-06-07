@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root {
+    --cor-principal: #6780D5;
+    --cor-secundaria: #014ba0;
+    --cor-destaque: #67B4D5;
+}
+
+body {
+    font-family: 'Edu VIC WA NT Mão', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
